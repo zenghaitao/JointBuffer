@@ -10,7 +10,7 @@
     "description": "基于Google Protocol Buffer的Buffer拼装器，可以将两段Buffer进行拼装和拆解",
     "autoload": {
         "psr-4": {
-            "ZStudio\\JointBuffer\\": "src/"
+            "ZenStudio\\JointBuffer\\": "src/"
         }
     },
     "autoload-dev": {
