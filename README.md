@@ -1,5 +1,5 @@
-# component-creator
+# component-joint-buffer
 
 ```
-composer create-project hyperf/component-creator
+composer require zen-studio/joint-buffer
 ```
