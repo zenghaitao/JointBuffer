@@ -15,7 +15,7 @@ class JointBuffer
     public function unPack(string $data): array
     {
         //从二进制流中分离出len和buf
-        $data = unpack('Clen/a*buf', $data);
+        $data = @unpack('Clen/a*buf', $data);
         if ($data['len'] && $data['buf']) {
             //根据len分离出cmd和data
             $format = "a{$data['len']}cmd/a*data";
